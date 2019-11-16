@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/bootstrap.js">
+
+    </script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Grocery List</title>
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="text-white bg-success jumbotron m-3">
+        <h1>Grocery List</h1>
+      </div>
+
+      <form id="groceryList">
+
+        <div class="form-group">
+
+          <label class="col-form-label col-form-label-lg" for="addListItem">What should we add to the list?</label>
+
+          <button type="button" class="btn btn-success" id="addListItem">Add Item</button>
+
+          <button type="submit" class="btn btn-primary">Finalize List</button>
+
+          <input class="form-control form-control-lg" type="text" id="itemInput">
+
+        </div>
+
+      </form>
+
+      <div class="hidden" id="output">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <ol><li>demo item</li>
+        </ol>
+        <!-- list items w/ class="card-text" -->
+      </div>
+
+    </div> <!-- container -->
+
+  </body>
+</html>

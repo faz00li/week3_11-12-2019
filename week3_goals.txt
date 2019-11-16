@@ -1,0 +1,96 @@
+
+Finish HW 2 @ EdmondsCC
+
+Set time w/ Franck to discuss internship
+
+WEB PROJECTS
+------------
+
+*flashCards
+*calculator
+*transport survery
+*quiz of choice
+*leap year 1
+*leap year 2
+
+MON -> DONE
+---
+Arrays 
+
+Looping
+
+Array Mapping
+
+forEach()? map
+
+looping w/ for
+
+
+Tue -> DONE
+---
+looping w/ for
+
+gathering data w/ check boxes
+
+behaviour driven development
+
+WED
+---
+leap year 3
+
+pig latin
+
+
+THR
+---
+LinkedIn
+
+Roman Numerals
+
+///////////////////////////
+***WEB DEV BOOK/CONCEPTS***
+///////////////////////////
+
+chp 7 CSS
+
+
+
+///////////////////////////
+***  FINISHED PROJECTS  ***
+///////////////////////////
+
+Groceries
+---------
+form that allows a user to input items they need at the store
+when the user submits the form, hide the form and display the list of items in alphabetical order, all uppercased.
+Hint: To do this, build an array of the inputted items. (Make sure you don't include any blank fields.) Sort the array in alphabetical order. Make a new array with each entry uppercased (don't just uppercase them when you display them). Then, display the sorted list of things as list items inside a <ul>.
+
+Word Puzzle -> semi finished, could implement part b
+-----------
+Create a website that uses a method to replace vowels in a string with the dash symbol "-" to create a word puzzle to solve. Hide the original string when you show the resulting word puzzle, so that another person can try and guess it.
+
+
+///////////////////////////
+***  Project Ideas  ***
+///////////////////////////
+
+https://www.learnhowtoprogram.com/introduction-to-programming/arrays-and-looping/practice-foreach-and-map-ede208ea-fd0c-442f-bcfa-8e23e83654b7
+
+
+Example:
+
+String Input: "Believe you can and you're halfway there. Theodore Roosevelt"
+
+Word Play
+Create a form where users may enter a sentence.
+Turn that sentence into an array using the split method.
+Then, loop through this array to build a new array out of every word in the sentence that is 3 or more characters in length.
+Finally, reverse the order of the new array, join it back together into a string, and display it to the user.
+
+Build a Deck
+Use a forEach() loop within another forEach() loop to build an array representing a deck of cards. A deck consists of 52 cards - 13 ranks in each of 4 suits.
+Then, display a list of every card in the deck. (Hint: Each element of the array should read something like "ace of spades" or "4 of hearts").
+The start of your output should look something like this:
+
+leap year
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/bootstrap.js">
+
+    </script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Word Puzzle</title>
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="jumbotron">
+        <h1 class="display-3 text-primary">Word Puzzle</h1>
+        <p>Enter a phrase. Put it through the cypher to replace vowels with blanks. Then have some one guess the phrase.</p>
+      </div>
+
+      <form id="collectPhrase">
+        <fieldset>
+
+          <div class="form-group">
+            <label for="phraseInput">Enter Phrase Here</label>
+            <textarea class="form-control" id="phraseInput" rows="3">the quick fox jumped over the lazy dog</textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+        </fieldset>
+      </form>
+
+      <div class="output">
+
+        <p id="cypher">secret phrase displayed here</p>
+
+      </div>
+
+      <!-- <form>
+        <fieldset>
+
+          <div class="form-group">
+            <label for="exampleTextarea">Enter Phrase Here</label>
+            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+        </fieldset>
+      </form> -->
+      
+    </div>
+
+
+
+  </body>
+</html>
