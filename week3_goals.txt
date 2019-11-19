@@ -38,7 +38,7 @@ WED
 ---
 leap year 3
 
-pig latin
+pig latin -> DONE
 
 
 THR
@@ -69,15 +69,23 @@ Word Puzzle -> semi finished, could implement part b
 -----------
 Create a website that uses a method to replace vowels in a string with the dash symbol "-" to create a word puzzle to solve. Hide the original string when you show the resulting word puzzle, so that another person can try and guess it.
 
+Pig Latin
+--------------------
+takes a word turns into pig latin
+could expand to taking string w/ multiple words and taking out white spaces, and splitting w/ arrays
 
-///////////////////////////
-***  Project Ideas  ***
-///////////////////////////
+////////////////////////////////////////////////
+***  Project Ideas + Good Problems to Solve  ***
+////////////////////////////////////////////////
 
 https://www.learnhowtoprogram.com/introduction-to-programming/arrays-and-looping/practice-foreach-and-map-ede208ea-fd0c-442f-bcfa-8e23e83654b7
 
 
 Example:
+
+roman numeral convertor
+
+cryptosquare
 
 String Input: "Believe you can and you're halfway there. Theodore Roosevelt"
 
