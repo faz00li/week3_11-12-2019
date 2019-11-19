@@ -1,0 +1,19 @@
+https://www.markdownguide.org/cheat-sheet/
+
+# Pig Latin Translator
+
+#### website translates a phrase entered in English into Pig Latin
+
+#### By Eddie Raskin
+
+## Specs
+
+* if word starting w/ vowel concat "way" to end of word
+* if word starts w/consonant
+  * remove all letters leading up to first vowel, concat to end of word, concat ay to end of word
+  * words starting w/ y are consonant
+  * letters qu travel together
+
+
+
+## Known Bugs
