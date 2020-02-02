@@ -1,0 +1,11 @@
+markdown
+githubpages
+media queries
+bootstrap
+jQuery
+github branching
+string methods
+array methods
+
+parseInt()
+BDD -> specification + unit tests
